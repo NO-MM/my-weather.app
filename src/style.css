@@ -148,10 +148,14 @@
         margin: 5px 0;
     }
 
-    .temperature {
+    .weather-forecast-temperatures {
         font-size: 22px;
         font-weight: bold;
         color: #87ceeb;
+    }
+
+    .weather-forecast-temperature {
+        padding:0 10px;
     }
 
     .description {
