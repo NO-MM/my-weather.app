@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather Today</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+  </head>
+  <body>
+<div class="main-container">
+  <div class="container1">
+        <div class="search">
+    <form class="search-form" id="search-form">
+     <input type="search" placeholder="Enter location"required, spellcheck="false" id="search-input" class="search-input">
+     <input type="submit" value="Search" class="search-form-button">
+   </form>
+      </div>
+</div>
+ <div class="container2">
+        <div class="weather" id="city">
+          <span id="icon"></span>
+          <span id="time"></span>
+          <h1 class="temperature" id="temperature"°C></h1>
+          <h2 class="city" id="current-city"></h2>
+          
+          <div id="description">
+          <div class="column1">
+              <i class="icon"></i>
+            </div>
+            <p humidity: id="humidity"></p>
+            <p>Humidity</p>
+          </div>
+          <div class="details">
+            <div class="column2">
+              <span class="icon"></span>
+            </div>
+            <p wind: id=wind-speed></p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+      <div class="container3">
+        <h2>7-Day Weather Forecast</h2>
+        <div class="forecast">
+         
+          <div class="day-card">
+            <i class="fas fa-cloud-showers-heavy weather-icon"></i>
+            <h3>Tuesday</h3>
+            <p class="temperature">22°C</p>
+            <p class="description">Rain Showers</p>
+          </div>
+          <div class="day-card">
+            <i class="fas fa-cloud weather-icon"></i>
+            <h3>Wednesday</h3>
+            <p class="temperature">20°C</p>
+            <p class="description">Cloudy</p>
+          </div>
+          <div class="day-card">
+            <i class="fas fa-sun weather-icon"></i>
+            <h3>Thursday</h3>
+            <p class="temperature">26°C</p>
+            <p class="description">Sunny</p>
+          </div>
+          <div class="day-card">
+            <i class="fas fa-poo-storm weather-icon"></i>
+            <h3>Friday</h3>
+            <p class="temperature">23°C</p>
+            <p class="description">Thunderstorms</p>
+          </div>
+          <div class="day-card">
+            <i class="fas fa-sun weather-icon"></i>
+            <h3>Saturday</h3>
+            <p class="temperature">27°C</p>
+            <p class="description">Sunny</p>
+          </div>
+          <div class="day-card">
+            <i class="fas fa-cloud-sun weather-icon"></i>
+            <h3>Sunday</h3>
+            <p class="temperature">24°C</p>
+            <p class="description">Partly Cloudy</p>
+          </div>
+        </div>
+      <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+                This project was coded by
+          <a href="https://github.com/NO-MM" target="_blank"
+            >Nomfanelo Khuzwayo.</a
+          >
+          and is on
+          <a
+            href="https://github.com/NO-MM/vanilla-weather-project"
+            target="_blank"
+          >
+            GitHub</a
+          >
+          and hosted
+          <a href="https://vanilla-weather-app10.netlify.app/" target="_blank">
+            on Netlify</a
+          >
+        </p>
+          <p>&copy; 2024. All rights reserved.</p>
+        </div>
+        <script src ="src/java.js"></script>
+  </body>
+</html>
