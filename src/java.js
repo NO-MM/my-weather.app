@@ -50,7 +50,7 @@ function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-input");
 
-  searchCity(searchInput.Value);
+  searchCity(searchInput.value);
 }
 
 
