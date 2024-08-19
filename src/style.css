@@ -41,10 +41,13 @@
         margin-top: 15px;
         border-radius: 20px;
         padding: 40px 35px;
-        text-align: center;
+        text-align: flex;
         margin: 0 auto;
 
     }
+
+    
+
 
 
 
@@ -101,17 +104,28 @@
 
     .details {
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        padding: 0 20px;
+      padding: 0 20px; 
     }
+
+    .column1 {
+     display: flex;   
+      justify-content: space-between;
+    text-align: center;
+     padding: 0 20px;
+}
+
+    .column2 {
+    text-align: center;
+     padding: 0 20px;
+}
 
     .container3 {
         max-width: 1200px;
         margin: 0 auto;
     }
 
-    .forecast {
+    .weather-forecast {
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
